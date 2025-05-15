@@ -28,10 +28,9 @@ export default function Contact() {
               <div className="mt-12">
                 <h4 className="font-medium mb-4">Connect with me</h4>
                 <div className="flex space-x-4">
-                  <SocialLink icon={<Linkedin className="w-5 h-5" />} href="#" ariaLabel="LinkedIn" />
-                  <SocialLink icon={<Github className="w-5 h-5" />} href="#" ariaLabel="GitHub" />
-                  <SocialLink icon={<Twitter className="w-5 h-5" />} href="#" ariaLabel="Twitter" />
-                  <SocialLink icon={<Dribbble className="w-5 h-5" />} href="#" ariaLabel="Dribbble" />
+                  <SocialLink icon={<Linkedin className="w-5 h-5" />} href="https://pk.linkedin.com/" ariaLabel="LinkedIn" />
+                  <SocialLink icon={<Github className="w-5 h-5" />} href="https://github.com/ahmed-qureashi" ariaLabel="GitHub" />
+                  <SocialLink icon={<Twitter className="w-5 h-5" />} href="https://x.com/" ariaLabel="Twitter" />
                 </div>
               </div>
             </div>

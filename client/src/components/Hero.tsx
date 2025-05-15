@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import { ImgHTMLAttributes } from "react";
 
 export default function Hero() {
   return (
@@ -22,9 +23,9 @@ export default function Hero() {
               </a>
             </div>
           </div>
-          <div className="md:w-1/2 flex justify-center">
-            <img 
-              src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=600" 
+          <div className="md:w-1/4 flex justify-center flex">
+            <img
+              src="/public/ahmed.jpeg"
               alt="Developer Portrait" 
               className="rounded-full border-4 border-white shadow-xl w-64 h-64 object-cover" 
             />

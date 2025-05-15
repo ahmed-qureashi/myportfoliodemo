@@ -33,7 +33,7 @@ export default function Navbar() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <a href="#hero" className="text-2xl font-bold text-primary">
-            John<span className="text-secondary">Dev</span>
+            John<span className="text-secondary " >Dev</span>
           </a>
           
           {/* Desktop Navigation */}
