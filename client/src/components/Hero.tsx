@@ -25,7 +25,7 @@ export default function Hero() {
           </div>
           <div className="md:w-1/4 flex justify-center flex">
             <img
-              src="/public/ahmed.jpeg"
+              src="/ahmed.jpeg"
               alt="Developer Portrait" 
               className="rounded-full border-4 border-white shadow-xl w-64 h-64 object-cover" 
             />
