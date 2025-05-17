@@ -14,31 +14,24 @@ type Project = {
 const projects: Project[] = [
   {
     id: 1,
-    title: "E-commerce Platform",
-    description: "A full-featured online shopping platform with secure payment processing, user authentication, and product management.",
-    image: "https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
-    technologies: ["React", "Node.js", "MongoDB", "AWS"],
-    demoLink: "#",
-    codeLink: "#",
+    title: "codepipeline-s3-game Public",
+    description: "Continuous Deployment using AWS Code Pipeline and S3 for a simple game.",
+    image: "1t0dg.svg",
+    technologies: ["Javascript", "HTML", "CSS", "AWS"],
+    demoLink: "https://codepipline-s3-autoddeployment.vercel.app"
+,
+    codeLink: "https://github.com/ahmed-qureashi/MemeGame.git",
   },
   {
     id: 2,
-    title: "Analytics Dashboard",
-    description: "Interactive data visualization dashboard with real-time updates, user management, and customizable widgets.",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
+    title: "Portfolio Website",
+    description: "Personal portfolio website showcasing my projects and skills.",
+    image:"/ahmed.jpeg",
     technologies: ["Vue.js", "Express", "D3.js", "PostgreSQL"],
     demoLink: "#",
     codeLink: "#",
   },
-  {
-    id: 3,
-    title: "Task Management App",
-    description: "A productivity app with task scheduling, reminders, and collaboration features for teams and individuals.",
-    image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
-    technologies: ["React Native", "Firebase", "Redux", "Cloud Functions"],
-    demoLink: "#",
-    codeLink: "#",
-  },
+
 ];
 
 export default function Projects() {
@@ -79,7 +72,7 @@ function ProjectCard({ project }: ProjectCardProps) {
       <img 
         src={project.image} 
         alt={project.title} 
-        className="w-full h-48 object-cover" 
+        className={ `w-full  h-48 object-cover ${project.title === "Portfolio Website" ? "object-bottom mt-4" : ""}`} 
       />
       <div className="p-6">
         <h3 className="text-xl font-semibold mb-2">{project.title}</h3>

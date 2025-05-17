@@ -16,30 +16,42 @@ export default function About() {
           </div>
           
           <div className="md:w-2/3">
-            <h3 className="text-2xl font-semibold mb-4 text-primary">Hi, I'm John Doe</h3>
+            <h3 className="text-2xl font-semibold mb-4 text-primary">Hi, I'm Ahmed Hassan</h3>
             <p className="text-neutral-700 mb-4 text-lg">
-              I'm a full stack developer specializing in building exceptional digital experiences. With 5+ years of experience in web development, I enjoy creating robust and scalable applications using modern technologies.
+             A final-year Computer Science student with a growing interestin cloud computing, eager to learn and
+apply cloud technologies. Familiar with basic cloud concepts, virtualization, and distributed systems, with
+a willingness to develop hands-on experience. Interested in optimizing system performance and exploring
+cloud security best practices. Looking for opportunities to gain practical knowledge and contribute to
+cloud-based projects.
             </p>
             <p className="text-neutral-700 mb-6 text-lg">
-              My expertise spans across frontend development with HTML, CSS, and JavaScript frameworks, backend systems with Node.js, and database design with MongoDB and SQL databases. I'm passionate about clean code, performance optimization, and staying updated with the latest industry trends.
-            </p>
+              My expertise lies in leveraging cloud and DevOps technologies to build scalable and automated solutions. I utilize <b>Amazon Web Services (AWS)</b> for cloud infrastructure, ensuring high availability and security across deployments. For containerization and consistent environment setups, I rely on <b>Docker</b>, which integrates seamlessly into my CI/CD pipelines built with <b>GitHub Actions</b>. My development and automation workflows are streamlined using <b>Visual Studio Code</b>and the <b>Linux Cli</b>, where I also write efficient <b>Bash scripts</b> to automate routine tasks and system configurations. These tools collectively enable me to deliver robust, efficient, and maintainable solutions in cloud-native environments.
+</p>
             
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
               <div className="flex items-center">
                 <MailIcon className="text-primary mr-2" />
-                <span className="text-neutral-600">john.doe@example.com</span>
+                www.ahmedqureashi2882001@gmail.com
+                <span className="text-neutral-600"></span>
               </div>
               <div className="flex items-center">
                 <MapPin className="text-primary mr-2" />
-                <span className="text-neutral-600">San Francisco, CA</span>
+                <span className="text-neutral-600">Karachi, Sindh</span>
               </div>
               <div className="flex items-center">
                 <Github className="text-primary mr-2" />
-                <span className="text-neutral-600">github.com/johndoe</span>
+                <a
+                  href="https://github.com/ahmed-qureashi"
+                  className="text-neutral-600 hover:underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  github.com/ahmed-qureashi
+                </a>
               </div>
               <div className="flex items-center">
                 <Linkedin className="text-primary mr-2" />
-                <span className="text-neutral-600">linkedin.com/in/johndoe</span>
+                <span className="text-neutral-600"></span>
               </div>
             </div>
             
